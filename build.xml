@@ -1,0 +1,53 @@
+<project name="testjacoco" basedir="." default="junit">
+    <!--预定义的属性和 classpath -->
+    <property name="src.dir" value="src/main/java" />
+    <property name="test.dir" value="src/test/java" />
+    <property name="build.dir" value="target/ant/classes" />
+    <property name="classes.dir" value="${build.dir}/classes" />
+    <property name="tests.dir" value="${build.dir}/tests" />
+    <property name="jar.dir" value="${build.dir}/jar" />
+    <property name="lib.dir" value="target/dependency" />
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar" />
+    </path>
+    <!--新建文件夹-->
+    <target name="makedir" description="建立文件夹">
+        <mkdir dir="${build.dir}"/>
+
+    </target>
+    <!--清除上次构建 -->
+    <target name="clean">
+        <delete dir="${build.dir}" />
+    </target>
+    <!--编译代码，包括单元测试 -->
+    <target name="compile" depends="clean">
+        <mkdir dir="${classes.dir}" />
+        <mkdir dir="${tests.dir}" />
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" />
+        <javac srcdir="${test.dir}" destdir="${tests.dir}">
+            <classpath>
+                <path refid="classpath" />
+                <path location="${classes.dir}" />
+            </classpath>
+        </javac>
+    </target>
+    <!--打包 -->
+    <target name="jar" depends="compile">
+        <mkdir dir="${jar.dir}" />
+        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
+        </jar>
+    </target>
+    <!--运行单元测试 -->
+    <target name="junit" depends="jar">
+        <junit printsummary="yes">
+            <classpath>
+                <path refid="classpath"/>
+                <path location="${classes.dir}" />
+                <path location="${tests.dir}" />
+            </classpath>
+            <batchtest fork="yes">
+                <fileset dir="${test.dir}" includes="**/*Test.java"/>
+            </batchtest>
+        </junit>
+    </target>
+</project>
