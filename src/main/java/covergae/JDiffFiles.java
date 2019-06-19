@@ -110,9 +110,9 @@ public class JDiffFiles {
                     }else if(diffEntry.getChangeType()== DiffEntry.ChangeType.MODIFY){
                         // TODO: 2019/6/15 do another method 先看能不能跑通,先使用diffEntry.getNewPath()得到类文件,后面肯定要改
                         // TODO: 2019/6/15 感觉这里要存储两个oldGitPath和newGitPath
-                        String newBranchPath="/Users/didi/IdeaProjects/astonmartin/";
+                        String newBranchPath="/Users/didi/Downloads/testjacoco/";
                         String newclassFile=diffEntry.getNewPath();
-                        String oldclassFile="/Users/didi/IdeaProjects/nouse/astonmartin/";
+                        String oldclassFile="/Users/didi/IdeaProjects/nouse/testjacocofirstcommit/";
                         try {
                             Parser classParser1=new Parser();
                             classParser1.getMthodsMd5(newBranchPath+newclassFile);

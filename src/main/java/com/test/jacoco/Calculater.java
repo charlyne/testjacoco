@@ -21,6 +21,7 @@ public class Calculater {
     }
 
     public int divide(int x, int y) {
+        String a="to change ";
         return x / y;
     }
     public int divide2(int x, int y) {
