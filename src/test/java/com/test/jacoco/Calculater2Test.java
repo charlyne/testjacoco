@@ -11,12 +11,12 @@ public class Calculater2Test {
 
     @Test
     public void testAdd() {
-        assertEquals(50, new Calculater().add(46, 4));
+        assertEquals(50, new Calculater2().add(46, 4));
     }
 
     @Test
     public void testSuntract() {
-        assertEquals(3, new Calculater().subtract(5, 2));
+        assertEquals(3, new Calculater2().subtract(5, 2));
     }
 
     @Test

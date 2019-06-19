@@ -23,4 +23,7 @@ public class Calculater {
     public int divide(int x, int y) {
         return x / y;
     }
+    public int divide2(int x, int y) {
+        return x / y;
+    }
 }

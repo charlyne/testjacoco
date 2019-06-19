@@ -1,0 +1,2 @@
+com/test/jacoco/Calculater2Test=[testAdd,testSuntract,testMultiply,testDivide]
+com/test/jacoco/Calculater2=[add,subtract,multiply,divi

@@ -28,5 +28,9 @@ public class CalculaterTest {
     public void testDivide() {
         assertEquals(3, new Calculater().divide(6, 2));
     }
+    @Test
+    public void testDivide2() {
+        assertEquals(3, new Calculater().divide2(6, 2));
+    }
 
 }

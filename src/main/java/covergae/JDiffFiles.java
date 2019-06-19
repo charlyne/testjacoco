@@ -18,7 +18,9 @@ import org.eclipse.jgit.revwalk.RevWalk;
 import org.eclipse.jgit.treewalk.AbstractTreeIterator;
 import org.eclipse.jgit.treewalk.CanonicalTreeParser;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +33,7 @@ public class JDiffFiles {
     public JDiffFiles(String gitFilePath){
         this.gitFilePath=gitFilePath;
         try {
-            this.git=Git.open(new File(gitFilePath));
+            this.git=Git.open(new File(gitFilePath+"/.git"));
             this.repository=git.getRepository();
         } catch (IOException e) {
             e.printStackTrace();
@@ -91,14 +93,14 @@ public class JDiffFiles {
                     continue;
                 if(diffEntry.getNewPath().endsWith(".java")) {
                     if(diffEntry.getChangeType()== DiffEntry.ChangeType.ADD){
-                        String newBranchPath="/Users/didi/IdeaProjects/astonmartin/";
+
                         // TODO: 2019/6/15 do one method 先看能不能跑通,先使用diffEntry.getNewPath()得到类文件,后面肯定要改
                         // TODO: 2019/6/15 感觉这里要存储两个oldGitPath和newGitPath
                         String newclassFile=diffEntry.getNewPath();
-                        System.out.println(newBranchPath+diffEntry.getNewPath());
+                        System.out.println(gitFilePath+"/"+diffEntry.getNewPath());
                         try {
                             Parser classParser=new Parser();
-                            classParser.getMethods(newBranchPath+newclassFile);
+                            classParser.getMethods(gitFilePath+"/"+newclassFile);
                             if(!classParser.methodList.isEmpty()){
                                 map.put(newclassFile,classParser.methodList);
                             }
@@ -184,11 +186,27 @@ public class JDiffFiles {
 
         */
         String gitFilePath="/Users/didi/Downloads/testjacoco";
-        JDiffFiles jDiffFiles=new JDiffFiles(gitFilePath+"/.git");
-        String oldBranch="origin/master";
-        String newBranch="c9b3e9fb1ac44389b54d6894373164309acdc8de";
+        JDiffFiles jDiffFiles=new JDiffFiles(gitFilePath);
+        String oldBranch="c9b3e9fb1ac44389b54d6894373164309acdc8de";
+        String newBranch="b9f66e1c26ceef7aab366e4512bfca181f767b7a";
         // ArrayList list=jDiffFiles.diffFiles(oldBranch,newBranch);
         HashMap<String,ArrayList> diffClass=jDiffFiles.diffMethodsList(oldBranch,newBranch);
+        try {
+            File writeName = new File("output.txt"); // 相对路径，如果没有则要建立一个新的output.txt文件
+            writeName.createNewFile(); // 创建新文件,有同名的文件的话直接覆盖
+            try (FileWriter writer = new FileWriter(writeName);
+                 BufferedWriter out = new BufferedWriter(writer)
+            ) {
+                for(String classname:diffClass.keySet()){
+                    out.write(classname+"="+diffClass.get(classname).toString().replace(" ","")+"\r\n");
+
+                }
+                out.flush(); // 把缓存区内容压入文件
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         System.out.println("ddd");
     }
 }
