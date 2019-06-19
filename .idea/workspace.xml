@@ -2,99 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b66a270-68b3-4a7a-bc46-e118112c1b8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/branchfc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/branchnc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/branchpc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/bundle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/class.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/greenbar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/group.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/method.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/package.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/redbar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/report.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/session.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/sort.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/source.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser$MethodVisitor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/JDiffFiles.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/JDiffMethods.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/MyMD5Util.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/Parser$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/Parser$MethodMd5Visitor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/Parser$MethodVisitor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/covergae/Parser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.test.jacoco/Calculater.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.test.jacoco/Calculater.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.test.jacoco/Calculater2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.test.jacoco/Calculater2.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.test.jacoco/HelloWorld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.test.jacoco/HelloWorld.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.test.jacoco/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com.test.jacoco/index.source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/CMethodsParser$MethodVisitor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/CMethodsParser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/CMethodsParser.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/JDiffFiles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/JDiffFiles.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/JDiffMethods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/JDiffMethods.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/MyMD5Util.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/MyMD5Util.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/Parser$MethodMd5Visitor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/Parser$MethodVisitor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/Parser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/Parser.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/covergae/index.source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/report.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-resources/sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jacoco-sessions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser$MethodVisitor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffFiles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffFiles.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffMethods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffMethods.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/MyMD5Util.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/MyMD5Util.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser$MethodMd5Visitor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser$MethodVisitor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser.java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/index.source.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/covergae/JgitTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater.class" afterPath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/HelloWorld.class" afterPath="$PROJECT_DIR$/target/classes/com/test/jacoco/HelloWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/Calculater2Test.class" afterPath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/Calculater2Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/CalculaterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/CalculaterTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/test/HelloWorldTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/test/HelloWorldTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/testJacoco-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/testJacoco-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" afterPath="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/test/jacoco/Calculater2Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/jacoco/Calculater2Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" afterPath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.Calculater2Test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.Calculater2Test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.CalculaterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.CalculaterTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.test.HelloWorldTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.test.HelloWorldTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.Calculater2Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.Calculater2Test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.CalculaterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.CalculaterTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.test.HelloWorldTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.test.HelloWorldTest.txt" />
     </list>
@@ -119,16 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5882354">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Calculater2Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/Calculater2Test.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/CalculaterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding>
                 <element signature="e#296#297#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
@@ -155,22 +62,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JDiffFiles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java">
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/covergae/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="200" column="93" selection-start-line="200" selection-start-column="93" selection-end-line="200" selection-end-column="93" />
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
+      <file leaf-file-name="JDiffFiles.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5263158">
+              <caret line="198" column="4" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,27 +129,7 @@
         <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/covergae/Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyMD5Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/covergae/MyMD5Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -246,16 +166,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater.java" />
         <option value="$PROJECT_DIR$/target/site/jacoco/index.html" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater2.java" />
         <option value="$PROJECT_DIR$/src/main/java/covergae/NouseJdtTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/covergae/JgitTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" />
         <option value="$PROJECT_DIR$/output.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/test/jacoco/Calculater2Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/jacoco/CalculaterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" />
       </list>
     </option>
   </component>
@@ -441,6 +362,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testJacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testjacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testJacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testjacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jacoco" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -956,12 +929,12 @@
       <updated>1560764988848</updated>
       <workItem from="1560764990168" duration="1222000" />
       <workItem from="1560917750756" duration="5202000" />
-      <workItem from="1560933562564" duration="4829000" />
+      <workItem from="1560933562564" duration="5675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11253000" />
+    <option name="totallyTimeSpent" value="12099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -975,7 +948,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1000,7 +973,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java</url>
-          <line>140</line>
+          <line>139</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -1155,13 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1251,14 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/covergae/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5882354">
@@ -1275,18 +1233,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="200" column="93" selection-start-line="200" selection-start-column="93" selection-end-line="200" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="27" />
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1296,17 +1246,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/CalculaterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1321,10 +1260,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/CalculaterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/covergae/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5263158">
+          <caret line="198" column="4" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
           <folding />
         </state>
       </provider>

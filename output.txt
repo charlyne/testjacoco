@@ -1,2 +1,7 @@
-com/test/jacoco/Calculater2Test=[testAdd,testSuntract,testMultiply,testDivide]
-com/test/jacoco/Calculater2=[add,subtract,multiply,divi
+src/main/java/covergae/MyMD5Util.java=[getMD5Value,gitmain]
+src/test/java/com/test/jacoco/Calculater2Test.java=[testAdd,gittestSuntract,gittestMultiply,gittestDivide]
+src/main/java/covergae/JDiffMethods.java=[getDiffMethods,gitmain]
+src/main/java/com/test/jacoco/Calculater2.java=[add,gitsubtract,gitmultiply,gitdivide]
+src/main/java/covergae/CMethodsParser.java=[MethodsMD5List,gitvisit,gitgetMD5Value,gitmain]
+src/main/java/covergae/JDiffFiles.java=[diffFiles,gitdiffMethodsList,gitdiffMethodsList,gitdiffmethods,gitprepareTreeParser,gitmain]
+src/main/java/covergae/Parser.java=[main,gitgetMethods,gitgetMthodsMd5,gitvisit,gitvisit,gittt,gitmm]

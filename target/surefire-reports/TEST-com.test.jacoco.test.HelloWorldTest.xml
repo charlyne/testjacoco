@@ -59,6 +59,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.test.jacoco.test.HelloWorldTest" name="testMethod1" time="0.006"/>
-  <testcase classname="com.test.jacoco.test.HelloWorldTest" name="testMethod2" time="0.001"/>
+  <testcase classname="com.test.jacoco.test.HelloWorldTest" name="testMethod1" time="0.007"/>
+  <testcase classname="com.test.jacoco.test.HelloWorldTest" name="testMethod2" time="0"/>
 </testsuite>
