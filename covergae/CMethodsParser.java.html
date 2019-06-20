@@ -27,8 +27,8 @@ import java.util.stream.Collectors;
  */
 
 
-<span class="nc" id="L30">public  class CMethodsParser {</span>
-<span class="nc" id="L31">    protected HashMap&lt;String,String&gt; MethodsMD5List=new HashMap&lt;String,String&gt;();</span>
+public  class CMethodsParser {
+    protected HashMap&lt;String,String&gt; MethodsMD5List=new HashMap&lt;String,String&gt;();
 
     public HashMap&lt;String,String&gt; MethodsMD5List(String file) throws FileNotFoundException {
 <span class="nc" id="L34">        FileInputStream in=new FileInputStream(file);</span>
@@ -37,7 +37,7 @@ import java.util.stream.Collectors;
 <span class="nc" id="L37">        List&lt;Comment&gt; comments = cu.getAllContainedComments();</span>
 <span class="nc" id="L38">        List&lt;Comment&gt; unwantedComments = comments</span>
 <span class="nc" id="L39">                .stream()</span>
-<span class="nc bnc" id="L40" title="All 4 branches missed.">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
+<span class="nc" id="L40">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
 <span class="nc" id="L41">                .collect(Collectors.toList());</span>
 <span class="nc" id="L42">        unwantedComments.forEach(Node::remove);</span>
 <span class="nc" id="L43">        cu.accept(new MethodVisitor(), null);</span>
@@ -45,16 +45,16 @@ import java.util.stream.Collectors;
 <span class="nc" id="L45">        return MethodsMD5List;</span>
     }
 
-<span class="nc" id="L48">    private  class MethodVisitor extends VoidVisitorAdapter&lt;Void&gt; {</span>
+    private  class MethodVisitor extends VoidVisitorAdapter&lt;Void&gt; {
         @Override
         public void visit(MethodDeclaration n, Void arg) {
             /* here you can access the attributes of the method.
              this method will be called for all methods in this
              CompilationUnit, including inner class methods */
 
-<span class="nc" id="L55">            CMethodsParser.this.MethodsMD5List.put(n.getName().toString(),CMethodsParser.this.getMD5Value(n.toString()));</span>
-<span class="nc" id="L56">            super.visit(n, arg);</span>
-<span class="nc" id="L57">        }</span>
+            CMethodsParser.this.MethodsMD5List.put(n.getName().toString(),CMethodsParser.this.getMD5Value(n.toString()));
+            super.visit(n, arg);
+        }
     }
     public static String getMD5Value(String dataStr) {
         try {
@@ -100,4 +100,4 @@ import java.util.stream.Collectors;
 
 <span class="nc" id="L101">    }</span>
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906191219</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906191228</span></div></body></html>

@@ -28,6 +28,8 @@ import java.util.stream.Collectors;
 
 
 public  class CMethodsParser {
+    final String strfield=new String("99");
+    final int a=0;
     protected HashMap<String,String> MethodsMD5List=new HashMap<String,String>();
 
     public HashMap<String,String> MethodsMD5List(String file) throws FileNotFoundException {

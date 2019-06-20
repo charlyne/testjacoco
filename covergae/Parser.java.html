@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-<span class="nc" id="L20">public class Parser {</span>
+public class Parser {
     public   ArrayList&lt;String&gt; methodList;
     public HashMap&lt;String,String&gt; methodMd5Map;
 
@@ -41,7 +41,7 @@ import java.util.stream.Collectors;
 <span class="nc" id="L41">        List&lt;Comment&gt; comments = cu.getAllContainedComments();</span>
 <span class="nc" id="L42">        List&lt;Comment&gt; unwantedComments = comments</span>
 <span class="nc" id="L43">                .stream()</span>
-<span class="nc bnc" id="L44" title="All 4 branches missed.">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
+<span class="nc" id="L44">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
 <span class="nc" id="L45">                .collect(Collectors.toList());</span>
 <span class="nc" id="L46">        unwantedComments.forEach(Node::remove);</span>
         // prints the resulting compilation unit to default system output
@@ -61,7 +61,7 @@ import java.util.stream.Collectors;
 <span class="nc" id="L61">        List&lt;Comment&gt; comments = cu.getAllContainedComments();</span>
 <span class="nc" id="L62">        List&lt;Comment&gt; unwantedComments = comments</span>
 <span class="nc" id="L63">                .stream()</span>
-<span class="nc bnc" id="L64" title="All 4 branches missed.">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
+<span class="nc" id="L64">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
 <span class="nc" id="L65">                .collect(Collectors.toList());</span>
 <span class="nc" id="L66">        unwantedComments.forEach(Node::remove);</span>
 <span class="nc" id="L67">        cu.accept(new MethodMd5Visitor(), null);</span>
@@ -71,7 +71,7 @@ import java.util.stream.Collectors;
 <span class="nc" id="L71">    }</span>
 
 
-<span class="nc" id="L74">    private  class MethodVisitor extends VoidVisitorAdapter&lt;Void&gt; {</span>
+    private  class MethodVisitor extends VoidVisitorAdapter&lt;Void&gt; {
         // VoidVisitorAdapter本身就有visit(MethodDeclaration,A)或者(ClassOrInterfaceDeclaration n, Void arg),这里
         //是为了实现本例(打印方法等),所以才override了一些方法
         @Override
@@ -79,9 +79,9 @@ import java.util.stream.Collectors;
             /* here you can access the attributes of the method.
              this method will be called for all methods in this
              CompilationUnit, including inner class methods */
-<span class="nc" id="L82">            methodList.add(n.getName().toString());</span>
-<span class="nc" id="L83">            super.visit(n, arg);</span>
-<span class="nc" id="L84">        }</span>
+            methodList.add(n.getName().toString());
+            super.visit(n, arg);
+        }
 /**
         @Override
         public void visit(ClassOrInterfaceDeclaration n, Void arg) {
@@ -98,18 +98,18 @@ import java.util.stream.Collectors;
         }
         */
     }
-<span class="nc" id="L101">    private  class MethodMd5Visitor extends VoidVisitorAdapter&lt;Void&gt; {</span>
+    private  class MethodMd5Visitor extends VoidVisitorAdapter&lt;Void&gt; {
         @Override
         public void visit(MethodDeclaration n, Void arg) {
-<span class="nc" id="L104">            System.out.println(&quot;method:&quot;+n.getName());</span>
-<span class="nc" id="L105">            System.out.println(n.toString());</span>
-<span class="nc" id="L106">            String md5=&quot;&quot;;</span>
+            System.out.println(&quot;method:&quot;+n.getName());
+            System.out.println(n.toString());
+            String md5=&quot;&quot;;
             //n.toString是方法体
-<span class="nc" id="L108">            md5=MyMD5Util.getMD5Value(n.toString());</span>
+            md5=MyMD5Util.getMD5Value(n.toString());
             //以md5作为存储key,方法名字作为value,万一类包含多个重名函数呢?
-<span class="nc" id="L110">            methodMd5Map.put(md5,n.getName().toString());</span>
-<span class="nc" id="L111">            super.visit(n, arg);</span>
-<span class="nc" id="L112">        }</span>
+            methodMd5Map.put(md5,n.getName().toString());
+            super.visit(n, arg);
+        }
 
     }
 
@@ -118,4 +118,4 @@ import java.util.stream.Collectors;
 <span class="nc" id="L118">    private HashMap&lt;String,String&gt; mm(){return methodMd5Map;}</span>
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906191219</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906191228</span></div></body></html>

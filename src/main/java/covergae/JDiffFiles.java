@@ -188,7 +188,7 @@ public class JDiffFiles {
         String gitFilePath="/Users/didi/Downloads/testjacoco";
         JDiffFiles jDiffFiles=new JDiffFiles(gitFilePath);
         String oldBranch="c9b3e9fb1ac44389b54d6894373164309acdc8de";
-        String newBranch="b9f66e1c26ceef7aab366e4512bfca181f767b7a";
+        String newBranch="01ebf8d4b8b9b2534a0f8fe480a67f2b15a26273";
         // ArrayList list=jDiffFiles.diffFiles(oldBranch,newBranch);
         HashMap<String,ArrayList> diffClass=jDiffFiles.diffMethodsList(oldBranch,newBranch);
         try {

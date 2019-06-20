@@ -110,9 +110,9 @@ public class JDiffFiles {
 <span class="nc bnc" id="L110" title="All 2 branches missed.">                    }else if(diffEntry.getChangeType()== DiffEntry.ChangeType.MODIFY){</span>
                         // TODO: 2019/6/15 do another method 先看能不能跑通,先使用diffEntry.getNewPath()得到类文件,后面肯定要改
                         // TODO: 2019/6/15 感觉这里要存储两个oldGitPath和newGitPath
-<span class="nc" id="L113">                        String newBranchPath=&quot;/Users/didi/IdeaProjects/astonmartin/&quot;;</span>
+<span class="nc" id="L113">                        String newBranchPath=&quot;/Users/didi/Downloads/testjacoco/&quot;;</span>
 <span class="nc" id="L114">                        String newclassFile=diffEntry.getNewPath();</span>
-<span class="nc" id="L115">                        String oldclassFile=&quot;/Users/didi/IdeaProjects/nouse/astonmartin/&quot;;</span>
+<span class="nc" id="L115">                        String oldclassFile=&quot;/Users/didi/IdeaProjects/nouse/testjacocofirstcommit/&quot;;</span>
                         try {
 <span class="nc" id="L117">                            Parser classParser1=new Parser();</span>
 <span class="nc" id="L118">                            classParser1.getMthodsMd5(newBranchPath+newclassFile);</span>
@@ -188,7 +188,7 @@ public class JDiffFiles {
 <span class="nc" id="L188">        String gitFilePath=&quot;/Users/didi/Downloads/testjacoco&quot;;</span>
 <span class="nc" id="L189">        JDiffFiles jDiffFiles=new JDiffFiles(gitFilePath);</span>
 <span class="nc" id="L190">        String oldBranch=&quot;c9b3e9fb1ac44389b54d6894373164309acdc8de&quot;;</span>
-<span class="nc" id="L191">        String newBranch=&quot;b9f66e1c26ceef7aab366e4512bfca181f767b7a&quot;;</span>
+<span class="nc" id="L191">        String newBranch=&quot;01ebf8d4b8b9b2534a0f8fe480a67f2b15a26273&quot;;</span>
         // ArrayList list=jDiffFiles.diffFiles(oldBranch,newBranch);
 <span class="nc" id="L193">        HashMap&lt;String,ArrayList&gt; diffClass=jDiffFiles.diffMethodsList(oldBranch,newBranch);</span>
         try {
