@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b66a270-68b3-4a7a-bc46-e118112c1b8c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater.class" afterPath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/covergae/JDiffFiles.class" afterPath="$PROJECT_DIR$/target/classes/covergae/JDiffFiles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/testJacoco-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/testJacoco-1.0.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.test.jacoco/Calculater.html" afterPath="$PROJECT_DIR$/com.test.jacoco/Calculater.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.test.jacoco/Calculater.java.html" afterPath="$PROJECT_DIR$/com.test.jacoco/Calculater.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.test.jacoco/Calculater2.html" afterPath="$PROJECT_DIR$/com.test.jacoco/Calculater2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.test.jacoco/Calculater2.java.html" afterPath="$PROJECT_DIR$/com.test.jacoco/Calculater2.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.test.jacoco/index.html" afterPath="$PROJECT_DIR$/com.test.jacoco/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.test.jacoco/index.source.html" afterPath="$PROJECT_DIR$/com.test.jacoco/index.source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/CMethodsParser.html" afterPath="$PROJECT_DIR$/covergae/CMethodsParser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/CMethodsParser.java.html" afterPath="$PROJECT_DIR$/covergae/CMethodsParser.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/JDiffFiles.html" afterPath="$PROJECT_DIR$/covergae/JDiffFiles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/JDiffFiles.java.html" afterPath="$PROJECT_DIR$/covergae/JDiffFiles.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/JDiffMethods.html" afterPath="$PROJECT_DIR$/covergae/JDiffMethods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/JDiffMethods.java.html" afterPath="$PROJECT_DIR$/covergae/JDiffMethods.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/MyMD5Util.html" afterPath="$PROJECT_DIR$/covergae/MyMD5Util.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/MyMD5Util.java.html" afterPath="$PROJECT_DIR$/covergae/MyMD5Util.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/Parser.html" afterPath="$PROJECT_DIR$/covergae/Parser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/Parser.java.html" afterPath="$PROJECT_DIR$/covergae/Parser.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/index.html" afterPath="$PROJECT_DIR$/covergae/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/covergae/index.source.html" afterPath="$PROJECT_DIR$/covergae/index.source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jacoco-sessions.html" afterPath="$PROJECT_DIR$/jacoco-sessions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/covergae/CMethodsParser.java" afterPath="$PROJECT_DIR$/src/main/java/covergae/CMethodsParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" afterPath="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" afterPath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater.html" afterPath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater.java.html" afterPath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.html" afterPath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.source.html" afterPath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffFiles.java.html" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffFiles.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.Calculater2Test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.Calculater2Test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.CalculaterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.CalculaterTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.test.HelloWorldTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.test.HelloWorldTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.Calculater2Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.Calculater2Test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.CalculaterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.CalculaterTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.test.HelloWorldTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.test.HelloWorldTest.txt" />
     </list>
     <ignored path="testJacoco.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,8 +113,8 @@
       <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.010989011">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.3618421">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1019,16 +977,16 @@
       <workItem from="1560917750756" duration="5202000" />
       <workItem from="1560933562564" duration="4829000" />
       <workItem from="1560949338103" duration="2952000" />
-      <workItem from="1560996012111" duration="8987000" />
+      <workItem from="1560996012111" duration="9188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23192000" />
+    <option name="totallyTimeSpent" value="23393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1037,8 +995,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1079,12 +1037,6 @@
           <line>125</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/test/jacoco/TestClass.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="5" />
@@ -1531,8 +1483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.010989011">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3618421">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
