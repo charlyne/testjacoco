@@ -110,12 +110,12 @@ public class JDiffFiles {
                     }else if(diffEntry.getChangeType()== DiffEntry.ChangeType.MODIFY){
                         // TODO: 2019/6/15 do another method 先看能不能跑通,先使用diffEntry.getNewPath()得到类文件,后面肯定要改
                         // TODO: 2019/6/15 感觉这里要存储两个oldGitPath和newGitPath
-                        String newBranchPath="/Users/didi/Downloads/testjacoco/";
+
                         String newclassFile=diffEntry.getNewPath();
                         String oldclassFile="/Users/didi/IdeaProjects/nouse/testjacocofirstcommit/";
                         try {
                             Parser classParser1=new Parser();
-                            classParser1.getMthodsMd5(newBranchPath+newclassFile);
+                            classParser1.getMthodsMd5(gitFilePath+"/"+newclassFile);
                             HashMap<String,String> newMethodMd5=classParser1.methodMd5Map;
                             // TODO: 2019/6/15  因为我不清楚如果继续使用classParser会不会是的newMethodMd5也变了(变成了oldMethodMd5),引用赋值不太清楚
                             Parser p=new Parser();
@@ -188,7 +188,8 @@ public class JDiffFiles {
         String gitFilePath="/Users/didi/Downloads/testjacoco";
         JDiffFiles jDiffFiles=new JDiffFiles(gitFilePath);
         String oldBranch="c9b3e9fb1ac44389b54d6894373164309acdc8de";
-        String newBranch="01ebf8d4b8b9b2534a0f8fe480a67f2b15a26273";
+
+        String newBranch="2a13647c8a3e283ebc07cf283a2b53f497dc8c59";
         // ArrayList list=jDiffFiles.diffFiles(oldBranch,newBranch);
         HashMap<String,ArrayList> diffClass=jDiffFiles.diffMethodsList(oldBranch,newBranch);
         try {
@@ -198,7 +199,7 @@ public class JDiffFiles {
                  BufferedWriter out = new BufferedWriter(writer)
             ) {
                 for(String classname:diffClass.keySet()){
-                    out.write(classname+"="+diffClass.get(classname).toString().replace(" ","")+"\r\n");
+                    out.write(classname+"="+diffClass.get(classname).toString().replace(" ","git")+"\r\n");
 
                 }
                 out.flush(); // 把缓存区内容压入文件
