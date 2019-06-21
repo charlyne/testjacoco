@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Parser.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">uniquejacocoreport</a> &gt; <a href="index.source.html" class="el_package">covergae</a> &gt; <span class="el_source">Parser.java</span></div><h1>Parser.java</h1><pre class="source lang-java linenums">package covergae;
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Parser.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-jacoco</a> &gt; <a href="index.source.html" class="el_package">covergae</a> &gt; <span class="el_source">Parser.java</span></div><h1>Parser.java</h1><pre class="source lang-java linenums">package covergae;
 
 //from https://blog.csdn.net/c5113620/article/details/80479859
 
@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Parser {
+<span class="nc" id="L20">public class Parser {</span>
     public   ArrayList&lt;String&gt; methodList;
     public HashMap&lt;String,String&gt; methodMd5Map;
 
@@ -41,7 +41,7 @@ public class Parser {
 <span class="nc" id="L41">        List&lt;Comment&gt; comments = cu.getAllContainedComments();</span>
 <span class="nc" id="L42">        List&lt;Comment&gt; unwantedComments = comments</span>
 <span class="nc" id="L43">                .stream()</span>
-<span class="nc" id="L44">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
+<span class="nc bnc" id="L44" title="All 4 branches missed.">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
 <span class="nc" id="L45">                .collect(Collectors.toList());</span>
 <span class="nc" id="L46">        unwantedComments.forEach(Node::remove);</span>
         // prints the resulting compilation unit to default system output
@@ -61,7 +61,7 @@ public class Parser {
 <span class="nc" id="L61">        List&lt;Comment&gt; comments = cu.getAllContainedComments();</span>
 <span class="nc" id="L62">        List&lt;Comment&gt; unwantedComments = comments</span>
 <span class="nc" id="L63">                .stream()</span>
-<span class="nc" id="L64">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
+<span class="nc bnc" id="L64" title="All 4 branches missed.">                .filter(p -&gt; !p.getCommentedNode().isPresent() || p instanceof LineComment)</span>
 <span class="nc" id="L65">                .collect(Collectors.toList());</span>
 <span class="nc" id="L66">        unwantedComments.forEach(Node::remove);</span>
 <span class="nc" id="L67">        cu.accept(new MethodMd5Visitor(), null);</span>
@@ -71,7 +71,7 @@ public class Parser {
 <span class="nc" id="L71">    }</span>
 
 
-    private  class MethodVisitor extends VoidVisitorAdapter&lt;Void&gt; {
+<span class="nc" id="L74">    private  class MethodVisitor extends VoidVisitorAdapter&lt;Void&gt; {</span>
         // VoidVisitorAdapter本身就有visit(MethodDeclaration,A)或者(ClassOrInterfaceDeclaration n, Void arg),这里
         //是为了实现本例(打印方法等),所以才override了一些方法
         @Override
@@ -79,9 +79,9 @@ public class Parser {
             /* here you can access the attributes of the method.
              this method will be called for all methods in this
              CompilationUnit, including inner class methods */
-            methodList.add(n.getName().toString());
-            super.visit(n, arg);
-        }
+<span class="nc" id="L82">            methodList.add(n.getName().toString());</span>
+<span class="nc" id="L83">            super.visit(n, arg);</span>
+<span class="nc" id="L84">        }</span>
 /**
         @Override
         public void visit(ClassOrInterfaceDeclaration n, Void arg) {
@@ -98,18 +98,18 @@ public class Parser {
         }
         */
     }
-    private  class MethodMd5Visitor extends VoidVisitorAdapter&lt;Void&gt; {
+<span class="nc" id="L101">    private  class MethodMd5Visitor extends VoidVisitorAdapter&lt;Void&gt; {</span>
         @Override
         public void visit(MethodDeclaration n, Void arg) {
-            System.out.println(&quot;method:&quot;+n.getName());
-            System.out.println(n.toString());
-            String md5=&quot;&quot;;
+<span class="nc" id="L104">            System.out.println(&quot;method:&quot;+n.getName());</span>
+<span class="nc" id="L105">            System.out.println(n.toString());</span>
+<span class="nc" id="L106">            String md5=&quot;&quot;;</span>
             //n.toString是方法体
-            md5=MyMD5Util.getMD5Value(n.toString());
+<span class="nc" id="L108">            md5=MyMD5Util.getMD5Value(n.toString());</span>
             //以md5作为存储key,方法名字作为value,万一类包含多个重名函数呢?
-            methodMd5Map.put(md5,n.getName().toString());
-            super.visit(n, arg);
-        }
+<span class="nc" id="L110">            methodMd5Map.put(md5,n.getName().toString());</span>
+<span class="nc" id="L111">            super.visit(n, arg);</span>
+<span class="nc" id="L112">        }</span>
 
     }
 
@@ -118,4 +118,4 @@ public class Parser {
 <span class="nc" id="L118">    private HashMap&lt;String,String&gt; mm(){return methodMd5Map;}</span>
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906191228</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906200338</span></div></body></html>

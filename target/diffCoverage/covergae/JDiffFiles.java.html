@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JDiffFiles.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-jacoco</a> &gt; <a href="index.source.html" class="el_package">covergae</a> &gt; <span class="el_source">JDiffFiles.java</span></div><h1>JDiffFiles.java</h1><pre class="source lang-java linenums">package covergae;
+
+/**
+ * @description:
+ * @author: charlyne
+ * @time: 2019/6/13 10:44 AM
+ */
+
+import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.diff.DiffEntry;
+import org.eclipse.jgit.lib.AnyObjectId;
+import org.eclipse.jgit.lib.ObjectId;
+import org.eclipse.jgit.lib.ObjectReader;
+import org.eclipse.jgit.lib.Repository;
+import org.eclipse.jgit.revwalk.RevTree;
+import org.eclipse.jgit.revwalk.RevWalk;
+import org.eclipse.jgit.treewalk.AbstractTreeIterator;
+import org.eclipse.jgit.treewalk.CanonicalTreeParser;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class JDiffFiles {
+    private String gitFilePath;
+    private Git git;
+    private Repository repository;
+    public JDiffFiles(String gitFilePath){
+        this.gitFilePath=gitFilePath;
+        try {
+            this.git=Git.open(new File(gitFilePath+&quot;/.git&quot;));
+            this.repository=git.getRepository();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    // TODO 后面要实现只找出diffjava文件(要过滤掉非java文件,和测试代码)
+    //a代表本地分支,b代表本地git的远程master分支,commit版本的比较,不是暂存区的比较
+    public  ArrayList diffFiles(String oldBranch,String newBranch) throws IOException {
+<span class="nc" id="L47">        ArrayList fileList=new ArrayList();</span>
+<span class="nc" id="L48">        ObjectId oldObjId=repository.resolve(oldBranch);</span>
+<span class="nc" id="L49">        ObjectId newObjId=repository.resolve(newBranch);</span>
+<span class="nc" id="L50">        AbstractTreeIterator oldTree=prepareTreeParser(oldObjId);</span>
+<span class="nc" id="L51">        AbstractTreeIterator newTree=prepareTreeParser(newObjId);</span>
+        try {
+<span class="nc" id="L53">            List&lt;DiffEntry&gt; diff=git.diff()</span>
+<span class="nc" id="L54">                    .setNewTree(newTree)</span>
+<span class="nc" id="L55">                    .setOldTree(oldTree)</span>
+<span class="nc" id="L56">                    .setShowNameAndStatusOnly(true)</span>
+<span class="nc" id="L57">                    .call();</span>
+<span class="nc bnc" id="L58" title="All 2 branches missed.">            for (DiffEntry diffEntry : diff) {</span>
+<span class="nc bnc" id="L59" title="All 2 branches missed.">                if(diffEntry.getChangeType()== DiffEntry.ChangeType.DELETE)</span>
+<span class="nc" id="L60">                    continue;</span>
+<span class="nc bnc" id="L61" title="All 4 branches missed.">                if(diffEntry.getChangeType()== DiffEntry.ChangeType.ADD||diffEntry.getChangeType()== DiffEntry.ChangeType.MODIFY){</span>
+<span class="nc bnc" id="L62" title="All 2 branches missed.">                    if(diffEntry.getNewPath().endsWith(&quot;.java&quot;)) {</span>
+<span class="nc" id="L63">                        fileList.add(diffEntry.getNewPath());</span>
+                        //System.out.println(diffEntry.getNewPath());
+                    }
+                }
+<span class="nc" id="L67">            }</span>
+<span class="nc" id="L68">        } catch (GitAPIException e) {</span>
+<span class="nc" id="L69">            e.printStackTrace();</span>
+<span class="nc" id="L70">        }</span>
+<span class="nc" id="L71">        return fileList;</span>
+    }
+
+
+    public HashMap&lt;String,ArrayList&gt; diffMethodsList(String newBranch) throws IOException {
+<span class="nc" id="L76">        return diffMethodsList(newBranch,&quot;origin/master&quot;);</span>
+    }
+
+    public HashMap&lt;String,ArrayList&gt; diffMethodsList(String oldBranch,String newBranch)throws IOException{
+<span class="nc" id="L80">        HashMap&lt;String,ArrayList&gt; map=new HashMap&lt;String,ArrayList&gt;();</span>
+<span class="nc" id="L81">        ObjectId oldObjId=repository.resolve(oldBranch);</span>
+<span class="nc" id="L82">        ObjectId newObjId=repository.resolve(newBranch);</span>
+<span class="nc" id="L83">        AbstractTreeIterator oldTree=prepareTreeParser(oldObjId);</span>
+<span class="nc" id="L84">        AbstractTreeIterator newTree=prepareTreeParser(newObjId);</span>
+        try {
+<span class="nc" id="L86">            List&lt;DiffEntry&gt; diff=git.diff()</span>
+<span class="nc" id="L87">                    .setNewTree(newTree)</span>
+<span class="nc" id="L88">                    .setOldTree(oldTree)</span>
+<span class="nc" id="L89">                    .setShowNameAndStatusOnly(true)</span>
+<span class="nc" id="L90">                    .call();</span>
+<span class="nc bnc" id="L91" title="All 2 branches missed.">            for (DiffEntry diffEntry : diff) {</span>
+<span class="nc bnc" id="L92" title="All 2 branches missed.">                if(diffEntry.getChangeType()== DiffEntry.ChangeType.DELETE)</span>
+<span class="nc" id="L93">                    continue;</span>
+<span class="nc bnc" id="L94" title="All 2 branches missed.">                if(diffEntry.getNewPath().endsWith(&quot;.java&quot;)) {</span>
+<span class="nc bnc" id="L95" title="All 2 branches missed.">                    if(diffEntry.getChangeType()== DiffEntry.ChangeType.ADD){</span>
+
+                        // TODO: 2019/6/15 do one method 先看能不能跑通,先使用diffEntry.getNewPath()得到类文件,后面肯定要改
+                        // TODO: 2019/6/15 感觉这里要存储两个oldGitPath和newGitPath
+<span class="nc" id="L99">                        String newclassFile=diffEntry.getNewPath();</span>
+<span class="nc" id="L100">                        System.out.println(gitFilePath+&quot;/&quot;+diffEntry.getNewPath());</span>
+                        try {
+<span class="nc" id="L102">                            Parser classParser=new Parser();</span>
+<span class="nc" id="L103">                            classParser.getMethods(gitFilePath+&quot;/&quot;+newclassFile);</span>
+<span class="nc bnc" id="L104" title="All 2 branches missed.">                            if(!classParser.methodList.isEmpty()){</span>
+<span class="nc" id="L105">                                map.put(newclassFile,classParser.methodList);</span>
+                            }
+<span class="nc" id="L107">                        }catch (Exception e){</span>
+<span class="nc" id="L108">                            e.printStackTrace();</span>
+<span class="nc" id="L109">                        }</span>
+<span class="nc bnc" id="L110" title="All 2 branches missed.">                    }else if(diffEntry.getChangeType()== DiffEntry.ChangeType.MODIFY){</span>
+                        // TODO: 2019/6/15 do another method 先看能不能跑通,先使用diffEntry.getNewPath()得到类文件,后面肯定要改
+                        // TODO: 2019/6/15 感觉这里要存储两个oldGitPath和newGitPath
+<span class="nc" id="L113">                        String newBranchPath=&quot;/Users/didi/Downloads/testjacoco/&quot;;</span>
+<span class="nc" id="L114">                        String newclassFile=diffEntry.getNewPath();</span>
+<span class="nc" id="L115">                        String oldclassFile=&quot;/Users/didi/IdeaProjects/nouse/testjacocofirstcommit/&quot;;</span>
+                        try {
+<span class="nc" id="L117">                            Parser classParser1=new Parser();</span>
+<span class="nc" id="L118">                            classParser1.getMthodsMd5(newBranchPath+newclassFile);</span>
+<span class="nc" id="L119">                            HashMap&lt;String,String&gt; newMethodMd5=classParser1.methodMd5Map;</span>
+                            // TODO: 2019/6/15  因为我不清楚如果继续使用classParser会不会是的newMethodMd5也变了(变成了oldMethodMd5),引用赋值不太清楚
+<span class="nc" id="L121">                            Parser p=new Parser();</span>
+<span class="nc" id="L122">                            p.getMthodsMd5(oldclassFile+diffEntry.getNewPath());</span>
+<span class="nc" id="L123">                            HashMap&lt;String,String&gt; oldMethodMd5=p.methodMd5Map;</span>
+<span class="nc" id="L124">                            ArrayList&lt;String&gt; tmplist=diffmethods(newMethodMd5,oldMethodMd5);</span>
+<span class="nc bnc" id="L125" title="All 2 branches missed.">                            if(!tmplist.isEmpty()) {</span>
+<span class="nc" id="L126">                                map.put(newclassFile, tmplist);</span>
+                            }
+
+<span class="nc" id="L129">                        }catch (Exception e){</span>
+<span class="nc" id="L130">                            e.printStackTrace();</span>
+<span class="nc" id="L131">                        }</span>
+                    }
+                    //fileList.add(diffEntry.getNewPath());
+                   // System.out.println(diffEntry.getNewPath());
+                }
+<span class="nc" id="L136">            }</span>
+<span class="nc" id="L137">        } catch (GitAPIException e) {</span>
+<span class="nc" id="L138">            e.printStackTrace();</span>
+<span class="nc" id="L139">        }</span>
+        //TODO
+<span class="nc" id="L141">        System.out.println(&quot;&quot;);</span>
+<span class="nc" id="L142">        return map;</span>
+    }
+    public ArrayList&lt;String&gt; diffmethods(HashMap&lt;String,String&gt; newMap,HashMap&lt;String,String&gt; oldMap){
+<span class="nc" id="L145">        ArrayList&lt;String&gt; methodList=new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L146" title="All 4 branches missed.">        if(newMap.isEmpty()||oldMap.isEmpty()){</span>
+<span class="nc" id="L147">            return null;</span>
+        }
+<span class="nc bnc" id="L149" title="All 2 branches missed.">        for(String key:newMap.keySet()){</span>
+<span class="nc bnc" id="L150" title="All 2 branches missed.">            if(oldMap.containsKey(key)){</span>
+<span class="nc" id="L151">                continue;</span>
+            }
+<span class="nc" id="L153">            methodList.add(newMap.get(key));</span>
+<span class="nc" id="L154">        }</span>
+<span class="nc" id="L155">       return methodList;</span>
+    }
+
+    public  AbstractTreeIterator prepareTreeParser(AnyObjectId objectId) throws IOException {
+        //看来walk是重点啊
+        try{
+<span class="nc" id="L161">            RevWalk walk=new RevWalk(repository);</span>
+           // RevCommit commit=walk.parseCommit(objectId);
+           // RevTree tree=walk.parseTree(commit.getTree().getId());
+<span class="nc" id="L164">            RevTree tree=walk.parseTree(objectId);</span>
+<span class="nc" id="L165">            CanonicalTreeParser oldTreeParser = new CanonicalTreeParser();</span>
+<span class="nc" id="L166">            try (ObjectReader oldReader = repository.newObjectReader()) {</span>
+<span class="nc" id="L167">                oldTreeParser.reset(oldReader, tree.getId());</span>
+            }
+<span class="nc" id="L169">            walk.dispose();</span>
+<span class="nc" id="L170">            return oldTreeParser;</span>
+<span class="nc" id="L171">        }catch (Exception e){</span>
+<span class="nc" id="L172">            e.printStackTrace();</span>
+        }
+<span class="nc" id="L174">        return null;</span>
+    }
+
+    public static void main(String[] args) throws IOException {
+        /**
+        String gitFilePath=&quot;/Users/didi/IdeaProjects/astonmartin&quot;;
+        JDiffFiles jDiffFiles=new JDiffFiles(gitFilePath+&quot;/.git&quot;);
+        String oldBranch=&quot;origin/master&quot;;
+        String newBranch=&quot;HEAD&quot;;
+        // ArrayList list=jDiffFiles.diffFiles(oldBranch,newBranch);
+        HashMap&lt;String,ArrayList&gt; diffClass=jDiffFiles.diffMethodsList(oldBranch,newBranch);
+        System.out.println(&quot;ddd&quot;);
+
+        */
+<span class="nc" id="L188">        String gitFilePath=&quot;/Users/didi/Downloads/testjacoco&quot;;</span>
+<span class="nc" id="L189">        JDiffFiles jDiffFiles=new JDiffFiles(gitFilePath);</span>
+<span class="nc" id="L190">        String oldBranch=&quot;c9b3e9fb1ac44389b54d6894373164309acdc8de&quot;;</span>
+<span class="nc" id="L191">        String newBranch=&quot;01ebf8d4b8b9b2534a0f8fe480a67f2b15a26273&quot;;</span>
+        // ArrayList list=jDiffFiles.diffFiles(oldBranch,newBranch);
+<span class="nc" id="L193">        HashMap&lt;String,ArrayList&gt; diffClass=jDiffFiles.diffMethodsList(oldBranch,newBranch);</span>
+        try {
+<span class="nc" id="L195">            File writeName = new File(&quot;output.txt&quot;); // 相对路径，如果没有则要建立一个新的output.txt文件</span>
+<span class="nc" id="L196">            writeName.createNewFile(); // 创建新文件,有同名的文件的话直接覆盖</span>
+<span class="nc" id="L197">            try (FileWriter writer = new FileWriter(writeName);</span>
+<span class="nc" id="L198">                 BufferedWriter out = new BufferedWriter(writer)</span>
+            ) {
+<span class="nc bnc" id="L200" title="All 2 branches missed.">                for(String classname:diffClass.keySet()){</span>
+<span class="nc" id="L201">                    out.write(classname+&quot;=&quot;+diffClass.get(classname).toString().replace(&quot; &quot;,&quot;&quot;)+&quot;\r\n&quot;);</span>
+
+<span class="nc" id="L203">                }</span>
+<span class="nc" id="L204">                out.flush(); // 把缓存区内容压入文件</span>
+            }
+<span class="nc" id="L206">        } catch (IOException e) {</span>
+<span class="nc" id="L207">            e.printStackTrace();</span>
+<span class="nc" id="L208">        }</span>
+
+<span class="nc" id="L210">        System.out.println(&quot;ddd&quot;);</span>
+<span class="nc" id="L211">    }</span>
+}
+
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906200356</span></div></body></html>

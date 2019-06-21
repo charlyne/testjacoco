@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JDiffFiles.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">uniquejacocoreport</a> &gt; <a href="index.source.html" class="el_package">covergae</a> &gt; <span class="el_source">JDiffFiles.java</span></div><h1>JDiffFiles.java</h1><pre class="source lang-java linenums">package covergae;
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JDiffFiles.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-jacoco</a> &gt; <a href="index.source.html" class="el_package">covergae</a> &gt; <span class="el_source">JDiffFiles.java</span></div><h1>JDiffFiles.java</h1><pre class="source lang-java linenums">package covergae;
 
 /**
  * @description:
@@ -30,16 +30,16 @@ public class JDiffFiles {
     private String gitFilePath;
     private Git git;
     private Repository repository;
-    public JDiffFiles(String gitFilePath){
-        this.gitFilePath=gitFilePath;
+<span class="nc" id="L33">    public JDiffFiles(String gitFilePath){</span>
+<span class="nc" id="L34">        this.gitFilePath=gitFilePath;</span>
         try {
-            this.git=Git.open(new File(gitFilePath+&quot;/.git&quot;));
-            this.repository=git.getRepository();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+<span class="nc" id="L36">            this.git=Git.open(new File(gitFilePath+&quot;/.git&quot;));</span>
+<span class="nc" id="L37">            this.repository=git.getRepository();</span>
+<span class="nc" id="L38">        } catch (IOException e) {</span>
+<span class="nc" id="L39">            e.printStackTrace();</span>
+<span class="nc" id="L40">        }</span>
 
-    }
+<span class="nc" id="L42">    }</span>
 
     // TODO 后面要实现只找出diffjava文件(要过滤掉非java文件,和测试代码)
     //a代表本地分支,b代表本地git的远程master分支,commit版本的比较,不是暂存区的比较
@@ -212,4 +212,4 @@ public class JDiffFiles {
 }
 
 
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906191228</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201906200338</span></div></body></html>
