@@ -25,7 +25,8 @@ public class Calculater2Test {
     }
 
     @Test
-    public void testDivide() throws Exception {
+    public void testdivid0000e66() throws Exception {
+        assertEquals(2,new Calculater2().divid0000e66(6,3));
 
     }
 }

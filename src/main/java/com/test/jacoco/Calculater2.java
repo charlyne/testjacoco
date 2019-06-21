@@ -26,4 +26,7 @@ public class Calculater2 {
     public int divid0000e66(int x, int y) {
         return x / y;
     }
+    public int divid6(int x, int y) {
+        return x / y;
+    }
 }
