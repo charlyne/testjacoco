@@ -4,6 +4,7 @@
     <list default="true" id="68fe8355-f6d6-4cd8-80cb-c1c505457b99" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/test/jacoco/tt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/covergae/Nouse.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/com.test.jacoco/Calculater2.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/com.test.jacoco/Calculater2.java.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/com.test.jacoco/index.html" afterPath="" />
@@ -35,6 +36,21 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/ant/classes/jar/testjacoco.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/ant/classes/tests/com/test/jacoco/CalculaterTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/ant/classes/tests/com/test/jacoco/test/HelloWorldTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/HelloWorld.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/TestClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser$MethodVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/JDiffFiles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/JDiffMethods.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/MyMD5Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/Parser$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/Parser$MethodMd5Visitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/Parser$MethodVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/Parser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/aether-api-1.7.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/aether-impl-1.7.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/aether-spi-1.7.jar" afterPath="" />
@@ -99,34 +115,75 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/wagon-provider-api-1.0-alpha-6.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/xercesImpl-2.8.1.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater2.class" afterPath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/TestClass.class" afterPath="$PROJECT_DIR$/target/classes/com/test/jacoco/TestClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/testJacoco-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/testJacoco-1.0.0-SNAPSHOT.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater2.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/HelloWorld.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/HelloWorld.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/TestClass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/TestClass.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser$MethodVisitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffFiles.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffFiles.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffMethods.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/MyMD5Util.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/MyMD5Util.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser$MethodMd5Visitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser$MethodVisitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/index.source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.Calculater2Test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.CalculaterTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.test.HelloWorldTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.Calculater2Test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.CalculaterTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.test.HelloWorldTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/Calculater2Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/CalculaterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/test/HelloWorldTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/testJacoco-1.0.0-SNAPSHOT.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater2.java" afterPath="$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/test/jacoco/TestClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/test/jacoco/TestClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" afterPath="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" afterPath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater2.html" afterPath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater2.java.html" afterPath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater2.java.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.html" afterPath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.source.html" afterPath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/index.html" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/index.source.html" afterPath="$PROJECT_DIR$/target/site/jacoco/covergae/index.source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.Calculater2Test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.Calculater2Test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.CalculaterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.CalculaterTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.test.HelloWorldTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.test.HelloWorldTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.CalculaterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.CalculaterTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.test.HelloWorldTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.test.HelloWorldTest.txt" />
     </list>
     <ignored path="testJacoco.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -199,11 +256,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculater2Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calculater2Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/Calculater2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8278146">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorldTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/test/HelloWorldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Findfile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3642384">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -254,13 +331,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater2.java" />
         <option value="$PROJECT_DIR$/diffCoverage/index.html" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/tt.txt" />
         <option value="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/covergae/nouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/covergae/Nouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java" />
       </list>
     </option>
   </component>
@@ -390,7 +467,141 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testJacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testjacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testJacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testjacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testJacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testjacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testJacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testjacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="covergae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testJacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testjacoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jacoco" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -989,12 +1200,12 @@
       <workItem from="1563785675342" duration="1319000" />
       <workItem from="1563900568877" duration="599000" />
       <workItem from="1563934486635" duration="3012000" />
-      <workItem from="1564720991405" duration="666000" />
+      <workItem from="1564720991405" duration="1547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54079000" />
+    <option name="totallyTimeSpent" value="54960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
@@ -1006,6 +1217,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1014,15 +1226,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1107,13 +1318,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1343,13 +1547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diffCoverage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml.orig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.8207965">
@@ -1383,20 +1580,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="979" column="23" selection-start-line="979" selection-start-column="23" selection-end-line="979" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56395346">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="70" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1469,8 +1652,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/Calculater2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8278146">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/test/HelloWorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3642384">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding />
         </state>
       </provider>

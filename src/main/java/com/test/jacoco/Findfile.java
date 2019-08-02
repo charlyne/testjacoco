@@ -9,7 +9,8 @@ import java.io.File;
  */
 public class Findfile {
     public static void main(String[] args){
-        System.out.println(findFile("/Users/didi/Downloads/testjacoco","index.html","output.txt"));
+        Findfile findfile=new Findfile();
+        System.out.println(findfile.findFile("/Users/didi/Downloads/testjacoco","index.html","output.txt"));
     }
 
     /**
@@ -19,7 +20,7 @@ public class Findfile {
      * @param difffilename
      * @return
      */
-    public static boolean findFile(String projectDir,String execfilename,String difffilename){
+    public  boolean findFile(String projectDir,String execfilename,String difffilename){
         int cout=0;
         File dir=new File(projectDir);
         if(dir.exists()){
@@ -33,6 +34,26 @@ public class Findfile {
                if(filename.equals("pom.xml")||filename.equals(execfilename)||filename.equals(difffilename)){
                    cout=cout+1;
                }
+            }
+        }
+        if(cout==3)return true;
+        return false;
+    }
+
+    public  boolean findFile1(String projectDir,String execfilename,String difffilename){
+        int cout=0;
+        File dir=new File(projectDir);
+        if(dir.exists()){
+            File[] files=dir.listFiles();
+            for(File file:files){
+                if(file.isDirectory()){
+                    continue;
+                }
+                // TODO: 2019/6/24  difffilename和execfilename是不是要写成路径啊,绝对路径?
+                String filename=file.getName();
+                if(filename.equals("pom.xml")||filename.equals(execfilename)||filename.equals(difffilename)){
+                    cout=cout+1;
+                }
             }
         }
         if(cout==3)return true;
