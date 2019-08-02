@@ -1,0 +1,15 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo,com.test.jacoco,Calculater2,16,15,0,0,4,4,4,4,4,4
+JaCoCo,com.test.jacoco,Findfile,73,60,16,12,16,12,11,7,2,2
+JaCoCo,com.test.jacoco,HelloWorld,5,12,1,1,2,5,1,3,0,3
+JaCoCo,com.test.jacoco,TestClass,101,0,4,0,25,0,6,0,4,0
+JaCoCo,com.test.jacoco,Calculater,0,25,0,0,0,7,0,6,0,6
+JaCoCo,covergae,CMethodsParser,187,0,10,0,42,0,10,0,5,0
+JaCoCo,covergae,Nouse,393,0,42,0,62,0,28,0,7,0
+JaCoCo,covergae,JDiffFiles,439,0,34,0,112,0,24,0,7,0
+JaCoCo,covergae,Parser,125,0,8,0,33,0,12,0,8,0
+JaCoCo,covergae,Parser.MethodVisitor,19,0,0,0,4,0,2,0,2,0
+JaCoCo,covergae,JDiffMethods,45,0,6,0,15,0,6,0,3,0
+JaCoCo,covergae,Parser.MethodMd5Visitor,41,0,0,0,8,0,2,0,2,0
+JaCoCo,covergae,CMethodsParser.MethodVisitor,25,0,0,0,4,0,2,0,2,0
+JaCoCo,covergae,MyMD5Util,66,0,2,0,15,0,4,0,3,0

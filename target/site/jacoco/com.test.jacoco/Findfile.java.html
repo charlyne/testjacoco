@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Findfile.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCo</a> &gt; <a href="index.source.html" class="el_package">com.test.jacoco</a> &gt; <span class="el_source">Findfile.java</span></div><h1>Findfile.java</h1><pre class="source lang-java linenums">package com.test.jacoco;
+
+import java.io.File;
+
+/**
+ * @description:
+ * @author: charlyne
+ * @time: 2019/6/24 5:26 PM
+ */
+<span class="fc" id="L10">public class Findfile {</span>
+    public static void main(String[] args){
+<span class="nc" id="L12">        Findfile findfile=new Findfile();</span>
+<span class="nc" id="L13">        System.out.println(findfile.findFile(&quot;/Users/didi/Downloads/testjacoco&quot;,&quot;index.html&quot;,&quot;output.txt&quot;));</span>
+<span class="nc" id="L14">    }</span>
+
+    /**
+     * 寻找pom.xml和jacoco.exec和difffile.txt,默认这三个文件应该在项目的根目录,三个文件同时存在才能继续进行
+     * @param projectDir
+     * @param execfilename
+     * @param difffilename
+     * @return
+     */
+    public  boolean findFile(String projectDir,String execfilename,String difffilename){
+<span class="nc" id="L24">        int cout=0;</span>
+<span class="nc" id="L25">        File dir=new File(projectDir);</span>
+<span class="nc bnc" id="L26" title="All 2 branches missed.">        if(dir.exists()){</span>
+<span class="nc" id="L27">            File[] files=dir.listFiles();</span>
+<span class="nc bnc" id="L28" title="All 2 branches missed.">            for(File file:files){</span>
+<span class="nc bnc" id="L29" title="All 2 branches missed.">                if(file.isDirectory()){</span>
+<span class="nc" id="L30">                    continue;</span>
+                }
+                // TODO: 2019/6/24  difffilename和execfilename是不是要写成路径啊,绝对路径?
+<span class="nc" id="L33">                String filename=file.getName();</span>
+<span class="nc bnc" id="L34" title="All 6 branches missed.">               if(filename.equals(&quot;pom.xml&quot;)||filename.equals(execfilename)||filename.equals(difffilename)){</span>
+<span class="nc" id="L35">                   cout=cout+1;</span>
+               }
+            }
+        }
+<span class="nc bnc" id="L39" title="All 2 branches missed.">        if(cout==3)return true;</span>
+<span class="nc" id="L40">        return false;</span>
+    }
+
+    public  boolean findFile1(String projectDir,String execfilename,String difffilename){
+<span class="fc" id="L44">        int cout=0;</span>
+<span class="fc" id="L45">        File dir=new File(projectDir);</span>
+<span class="pc bpc" id="L46" title="1 of 2 branches missed.">        if(dir.exists()){</span>
+<span class="fc" id="L47">            File[] files=dir.listFiles();</span>
+<span class="fc bfc" id="L48" title="All 2 branches covered.">            for(File file:files){</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">                if(file.isDirectory()){</span>
+<span class="fc" id="L50">                    continue;</span>
+                }
+                // TODO: 2019/6/24  difffilename和execfilename是不是要写成路径啊,绝对路径?
+<span class="fc" id="L53">                String filename=file.getName();</span>
+<span class="fc bfc" id="L54" title="All 6 branches covered.">                if(filename.equals(&quot;pom.xml&quot;)||filename.equals(execfilename)||filename.equals(difffilename)){</span>
+<span class="fc" id="L55">                    cout=cout+1;</span>
+                }
+            }
+        }
+<span class="pc bpc" id="L59" title="1 of 2 branches missed.">        if(cout==3)return true;</span>
+<span class="nc" id="L60">        return false;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 1.0.1.201907230727</span></div></body></html>
