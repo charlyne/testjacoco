@@ -14,6 +14,6 @@ public class FindfileTest {
     @Test
     public void testFindFile1() throws Exception {
         Findfile findfile1=new Findfile();
-        assertFalse(findfile1.findFile1("/Users/didi/Downloads/testjacoco","index.html","output.txt"));
+        assertTrue(findfile1.findFile1("/Users/didi/Downloads/testjacoco","index.html","output.txt"));
     }
 }
