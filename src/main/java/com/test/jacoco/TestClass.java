@@ -2,6 +2,7 @@ package com.test.jacoco;
 
 import covergae.CMethodsParser;
 import java.lang.reflect.*;
+import java.util.HashMap;
 
 /**
  * @description:
@@ -9,6 +10,14 @@ import java.lang.reflect.*;
  * @time: 2019/6/20 8:34 PM
  */
 public class TestClass {
+    final  String ll;
+    public TestClass(String ll){
+        this.ll=ll;
+
+    }
+    public String  getll(){
+        return ll;
+    }
     public static void modify(Object cMethodsParser, String fieldName, Object newFieldValue) throws Exception {
         Field field = cMethodsParser.getClass().getDeclaredField(fieldName);
         Field modifiersField = Field.class.getDeclaredField("modifiers");
@@ -31,6 +40,11 @@ public class TestClass {
            System.out.println(field.get(cMethodsParser));
             System.out.println();
         }
+        TestClass tt=new TestClass("ll");
+        System.out.println(tt.getll());
+        TestClass mm=new TestClass("mm");
+        System.out.println(mm.getll());
+
 
 
 

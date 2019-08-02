@@ -29,8 +29,7 @@ public class Calculater2 {
     public int divid6(int x, int y) {
         return x / y;
     }
-
-    
+    //add a method
     public int add(int x, int y,int z) {
         return x + y;
     }
