@@ -2,188 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68fe8355-f6d6-4cd8-80cb-c1c505457b99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/test/jacoco/tt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/covergae/Nouse.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/com.test.jacoco/Calculater2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/com.test.jacoco/Calculater2.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/com.test.jacoco/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/com.test.jacoco/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/branchfc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/branchnc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/branchpc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/bundle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/class.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/greenbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/group.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/method.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/package.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/redbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/report.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/session.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/sort.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/source.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-resources/up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diffCoverage/jacoco-sessions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ant/classes/classes/com/test/jacoco/Calculater.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ant/classes/classes/com/test/jacoco/HelloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ant/classes/jar/testjacoco.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ant/classes/tests/com/test/jacoco/CalculaterTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ant/classes/tests/com/test/jacoco/test/HelloWorldTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/Calculater2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/HelloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/test/jacoco/TestClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser$MethodVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/CMethodsParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/JDiffFiles.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/JDiffMethods.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/MyMD5Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/Parser$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/Parser$MethodMd5Visitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/Parser$MethodVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/covergae/Parser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/aether-api-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/aether-impl-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/aether-spi-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/aether-util-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/asm-7.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/asm-analysis-7.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/asm-commons-7.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/asm-tree-7.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/classworlds-1.1-alpha-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-beanutils-1.7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-codec-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-collections-3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-digester-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-httpclient-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-lang-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-logging-1.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-validator-1.2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/doxia-core-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/doxia-decoration-model-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/doxia-logging-api-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/doxia-module-fml-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/doxia-module-xhtml-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/doxia-sink-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/doxia-site-renderer-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/file-management-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/jacoco-maven-plugin-0.8.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/junit-4.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-aether-provider-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-artifact-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-artifact-manager-2.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-core-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-model-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-model-builder-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-plugin-api-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-plugin-registry-2.0.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-profile-2.0.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-project-2.0.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-reporting-api-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-reporting-impl-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-repository-metadata-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-settings-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-settings-builder-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/maven-shared-io-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/org.jacoco.agent-0.8.4-runtime.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/org.jacoco.core-0.8.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/org.jacoco.report-0.8.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/oro-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-cipher-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-classworlds-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-component-annotations-1.5.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-container-default-1.0-alpha-9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-i18n-1.0-beta-7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-interpolation-1.14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-sec-dispatcher-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-utils-3.0.22.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/plexus-velocity-1.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/sisu-guice-2.1.7-noaop.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/sisu-inject-bean-1.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/sisu-inject-plexus-1.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/velocity-1.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/wagon-provider-api-1.0-alpha-6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/xercesImpl-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/Calculater2.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/HelloWorld.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/HelloWorld.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/TestClass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/TestClass.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.test.jacoco/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser$MethodVisitor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/CMethodsParser.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffFiles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffFiles.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffMethods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/JDiffMethods.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/MyMD5Util.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/MyMD5Util.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser$MethodMd5Visitor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser$MethodVisitor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/Parser.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/covergae/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.Calculater2Test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.CalculaterTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.jacoco.test.HelloWorldTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.Calculater2Test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.CalculaterTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.jacoco.test.HelloWorldTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/Calculater2Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/CalculaterTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/test/jacoco/test/HelloWorldTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/testJacoco-1.0.0-SNAPSHOT.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater2.java" afterPath="$PROJECT_DIR$/src/main/java/com/test/jacoco/Calculater2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/test/jacoco/TestClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/test/jacoco/TestClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" afterPath="$PROJECT_DIR$/src/main/java/covergae/JDiffFiles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/test/jacoco/FindfileTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/jacoco/FindfileTest.java" />
     </list>
     <ignored path="testJacoco.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -276,11 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Findfile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Findfile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3642384">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="105" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindfileTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/FindfileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5298013">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -314,6 +144,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -338,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/main/java/covergae/nouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/covergae/Nouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/jacoco/FindfileTest.java" />
       </list>
     </option>
   </component>
@@ -620,6 +452,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.test.jacoco" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Nouse">
     <configuration default="false" name="Findfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1200,16 +1041,16 @@
       <workItem from="1563785675342" duration="1319000" />
       <workItem from="1563900568877" duration="599000" />
       <workItem from="1563934486635" duration="3012000" />
-      <workItem from="1564720991405" duration="1547000" />
+      <workItem from="1564720991405" duration="3405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54960000" />
+    <option name="totallyTimeSpent" value="56818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1218,7 +1059,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1668,8 +1509,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/jacoco/Findfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3642384">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="105" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/jacoco/FindfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5298013">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
