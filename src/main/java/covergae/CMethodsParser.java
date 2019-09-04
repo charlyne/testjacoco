@@ -73,6 +73,37 @@ public  class CMethodsParser {
         }
         return "";
     }
+    public static String getMD5Value(String dataStr,int j) {
+        try {
+            MessageDigest m = MessageDigest.getInstance("MD5");
+            m.update(dataStr.getBytes("UTF8"));
+            byte s[] = m.digest();
+            String result = "";
+            for (int i = 0; i < s.length; i++) {
+                result += Integer.toHexString((0x000000FF & s[i]) | 0xFFFFFF00).substring(6);
+            }
+            return result;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+    public static String getMD5Value(int j,String dataStr) {
+        try {
+            MessageDigest m = MessageDigest.getInstance("MD5");
+            m.update(dataStr.getBytes("UTF8"));
+            byte s[] = m.digest();
+            String result = "";
+            for (int i = 0; i < s.length; i++) {
+                result += Integer.toHexString((0x000000FF & s[i]) | 0xFFFFFF00).substring(6);
+            }
+            return result;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
     public static void main(String[] args) throws FileNotFoundException {
         String file="/Users/didi/IdeaProjects/astonmartin/astonmartin-api/src/main/java/com/xiaoju/automarket/energy/astonmartin/api/covergae/JgitTest.java";
         CMethodsParser cMethodsParser=new CMethodsParser();
