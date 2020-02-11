@@ -19,4 +19,12 @@ public class HelloWorld {
         }
         return a + b;
     }
+    public void addMethod(int a, int b,String cc) {
+        if (a > b) {
+            int c = 5;
+            System.out.print(c);
+            System.out.println("重载方法,验证diff正确性");
+        }
+    }
+    Calculater calculater;
 }

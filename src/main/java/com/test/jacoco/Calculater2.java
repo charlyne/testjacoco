@@ -9,6 +9,7 @@ package com.test.jacoco;/**
  */
 public class Calculater2 {
     public int add(int x, int y) {
+        System.out.println("方法内代码变更,验证diff正确性");
         return x + y;
     }
 
@@ -33,5 +34,6 @@ public class Calculater2 {
     public int add(int x, int y,int z) {
         return x + y;
     }
+
 
 }
