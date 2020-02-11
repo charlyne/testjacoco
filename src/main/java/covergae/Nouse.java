@@ -4,6 +4,8 @@ import org.apache.commons.lang.StringUtils;
 
 import java.io.*;
 import java.lang.reflect.Array;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -85,9 +87,24 @@ public class Nouse {
 
         Nouse nouse=new Nouse();
         long starttime=System.currentTimeMillis();
-        nouse.copyDir("/Users/didi/IdeaProjects/rollsroyce","/Users/didi/IdeaProjects/rollsroyce99");
+       // nouse.copyDir("/Users/didi/IdeaProjects/rollsroyce","/Users/didi/IdeaProjects/rollsroyce99");
         long endtime=System.currentTimeMillis();
         System.out.println(endtime-starttime);
+        double price=99.69537;
+
+        DecimalFormat df = new DecimalFormat("#.00");
+        df.format(price);
+        System.out.println(df.format(price));
+        BigDecimal bg = new BigDecimal(price);
+        /**
+         * 参数：
+         newScale - 要返回的 BigDecimal 值的标度。
+         roundingMode - 要应用的舍入模式。
+         返回：
+         一个 BigDecimal，其标度为指定值，其非标度值可以通过此 BigDecimal 的非标度值乘以或除以十的适当次幂来确定。
+         */
+        double f1 = bg.setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
+        System.out.println(f1);
 
 
     }

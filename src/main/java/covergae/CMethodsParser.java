@@ -105,7 +105,7 @@ public  class CMethodsParser {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        String file="/Users/didi/IdeaProjects/astonmartin/astonmartin-api/src/main/java/com/xiaoju/automarket/energy/astonmartin/api/covergae/JgitTest.java";
+        String file="/Users/didi/IdeaProjects/rollsroyce/rollsroyce-resource/src/main/java/com/xiaoju/automarket/energy/rollsroyce/resource/transfer/FuelTransfer.java";
         CMethodsParser cMethodsParser=new CMethodsParser();
         HashMap map=cMethodsParser.MethodsMD5List(file);
         Iterator<Map.Entry<String, String>> it = map.entrySet().iterator();
